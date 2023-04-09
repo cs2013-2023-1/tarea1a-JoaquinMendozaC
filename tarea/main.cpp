@@ -9,5 +9,15 @@
 
 // Puede validar su codigo con la siguiente funcion main
 int main(){
+    Matriz2D m1;
+    Matriz2D m2(3);
+    Matriz2D m3(5,2);
 
+    cout<<m1;
+    cout<<"\n";
+    cout<<m3;
+    cout<<"\n";
+
+    Matriz2D m4 = t(m3);
+    cout<<m4;
 }
